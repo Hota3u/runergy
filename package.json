@@ -1,0 +1,22 @@
+{
+  "name": "runergy",
+  "version": "0.0.1",
+  "description": "Internal administrative app for company Runergy s.r.o.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "runergy"
+  },
+  "keywords": [
+    "runergy",
+    "filip",
+    "matiaska",
+    "company",
+    "administration"
+  ],
+  "author": "Filip Matiaska",
+  "license": "LGPL-3.0-or-later"
+}
