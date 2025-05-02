@@ -1,1 +1,15 @@
 node_modules/
+favicon.zip
+src/nastaveni/apple-touch-icon.png
+src/nastaveni/favicon-96x96.png
+src/nastaveni/favicon.ico
+src/nastaveni/favicon.svg
+src/nastaveni/web-app-manifest-192x192.png
+src/nastaveni/web-app-manifest-512x512.png
+dist/obrazky/
+dist/nastaveni/
+dist/html_header.php
+dist/html_footer.php
+dist/body_reg.php
+dist/styly/
+dist/klient/

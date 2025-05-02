@@ -1,0 +1,60 @@
+		</main>
+		<footer>
+			<article>
+				<h4>Výpočet množství částic</h4>
+				<table>
+					<tr>
+						<th>Hmotnost:</th>
+						<td>
+							<input type='number' id='weightm'>
+						</td>
+						<td>
+							<select id='jednotky'>
+								<option value='0'>g</option>
+								<option value='1'>mg</option>
+								<option value='2'>&micro;g</option>
+								<option value='3'>ng</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Molární hmotnost:</th>
+						<td>
+							<input type='number' id='molarw'>
+						</td>
+						<td>
+							<sup>g</sup>/<sub>mol</sub>
+						</td>
+					</tr>
+					<tr>
+						<th></th>
+						<td>
+							<button type='button' onclick='parts()'>Vypočítej</button>
+						</td>
+						<td></td>
+					</tr>
+				</table>
+				<p id='partsres'></p>
+			</article>
+			<aside>
+				<h3>Album obrázků</h3>
+				<select id='books' onchange='resetcount()'>
+					<option value='0'>Twisted Intent</option>
+					<option value='1'>Twisted Intent 2</option>
+					<option value='2'>NINA Greenhair</option>
+					<option value='3'>Han Song-Yi</option>
+					<option value='4'>Edel Frieren [artkoikoi]</option>
+					<option value='5'>Nino Nakano [artkoikoi]</option>
+				</select>
+				<button type='button' onclick='albumback()' id='albumback'>PŘEDCHOZÍ</button>
+				<button type='button' onclick='albumnext()' id='albumnext'>DALŠÍ</button>
+				<img src='obrazky/intro/<?php require_once("program/Erza-min.php"); echo("image_" . Erza::SUPER_RAND(0, 9, $_SERVER["REMOTE_ADDR"]) . ".png");?>' alt='FOTOALBUM' title='UVÍTACÍ OBRÁZEK!' id='animealb'>
+			</aside>
+			<p id='copyright'>Copyright &copy; 2025 Runergy s.r.o.<br>Všechna práva vyhrazena.</p>
+		</footer>
+		<span id='albcit'>1</span>
+		<script src='klient/auto.js'></script>
+		<script src='klient/album.js'></script>
+		<script src='klient/matika.js'></script>
+	</body>
+</html>

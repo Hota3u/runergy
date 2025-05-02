@@ -13,3 +13,20 @@ gulp.task('css', function() {
 		.pipe(cssmin({compatibility: 'ie8'}))
 		.pipe(gulp.dest('dist/styly'));
 });
+
+gulp.task('html', function() {
+	gulp.src('src/html_footer.php')
+		.pipe(htmin({
+			collapseWhitespace: true
+		}))
+		.pipe(gulp.dest('dist'));
+});
+
+gulp.task('js', function() {
+	gulp.src('src/klient/*.js')
+		.pipe(terser({
+			keep_fnames: true,
+			mangle: false
+		}))
+		.pipe(gulp.dest('dist/klient'));
+});
