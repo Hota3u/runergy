@@ -20,5 +20,8 @@
 	<body>
 		<header>
 			<h1>Žluťoučký kůň úpěl ďábelské ódy!</h1>
+			<?php
+				include("obrazky/playing_cards/svg/min_html/pc_svg_1.php");
+				?>
 		</header>
 		<main>

@@ -15,7 +15,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('html', function() {
-	gulp.src('src/html_footer.php')
+	gulp.src('src/body_marks.php')
 		.pipe(htmin({
 			collapseWhitespace: true
 		}))
@@ -30,3 +30,15 @@ gulp.task('js', function() {
 		}))
 		.pipe(gulp.dest('dist/klient'));
 });
+
+
+
+
+ 
+
+
+
+
+
+
+

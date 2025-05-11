@@ -5,6 +5,15 @@ header {
 		font-family: monospace;
 		text-decoration: overline;
 	}
+	article {
+		display: flex;
+		flex-wrap: wrap;
+
+		.cards {
+			width: 100px;
+			height: 146px;
+		}
+	}
 }
 
 main {

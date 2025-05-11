@@ -24,3 +24,7 @@ function parts() {
 
 	document.getElementById("partsres").innerHTML = "Počet částic/molekul je " + (mols * avog) + "!";
 }
+
+function vazprum() {
+	document.getElementById("znam4").innerHTML
+}
