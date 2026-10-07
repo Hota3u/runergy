@@ -1,5 +1,6 @@
 node_modules/
 favicon.zip
+affiliates_list-temp.txt
 Playing_Cards.zip
 src/test.php
 src/body_marks.php
@@ -16,3 +17,4 @@ dist/html_footer.php
 dist/body_reg.php
 dist/styly/
 dist/klient/
+httplay/

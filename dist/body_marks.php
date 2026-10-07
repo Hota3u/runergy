@@ -68,7 +68,7 @@
 				}
 				$celkZn += ($znamka*$key["vaha"]);
 				$celkVaha += $key["vaha"];
-				echo("<tr>
+				echo("	<tr>
 							<td class='uzivjm'>".$key["uzivatel"]."</td>
 							<td>".$datum."</td>
 							<td><a href='mailto:".$key["email"]."'>".$key["email"]."</a></td>
@@ -77,7 +77,8 @@
 							<td>".$key["predmet_nazev"]."</td>
 							<td id='znam".$key["Main_ID"]."'>".$znTxt."</td>
 							<td id='vaha".$key["Main_ID"]."'>".$key["vaha"]."</td>
-					</tr>");
+						</tr>
+					");
 			}
 
 		} catch(PDOException $e) {

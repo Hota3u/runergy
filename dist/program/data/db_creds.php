@@ -5,4 +5,3 @@
 	define("DB_PASS", "RfIaM1bITPkNwxV0Vb2hmdXtOY9DiOXd4ZAS1aC#ZChtEFUbxL");
 	define("KLIC", "JaJsemKurwa1999*SPRAVA#");
 	define("SALT", "2025_RuNerGy-s.r.o.cz");
-
