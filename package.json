@@ -19,6 +19,9 @@
   ],
   "author": "Filip Matiaska",
   "license": "LGPL-3.0-or-later",
+  "overrides": {
+    "graceful-fs": "^4.2.11"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^4.3.0",

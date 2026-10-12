@@ -12,9 +12,8 @@ src/nastaveni/web-app-manifest-192x192.png
 src/nastaveni/web-app-manifest-512x512.png
 dist/obrazky/
 dist/nastaveni/
-dist/html_header.php
-dist/html_footer.php
 dist/body_reg.php
 dist/styly/
 dist/klient/
 httplay/
+favicon_erza.zip
